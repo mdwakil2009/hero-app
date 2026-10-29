@@ -18,7 +18,7 @@ const InstallationPage = () => {
       {/* Apps */}
       {installedApps.length>0 ?(
       <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-  F      {installedApps.map((app: TApp, ind: number) => {
+        {installedApps.map((app: TApp, ind: number) => {
           return <AppCard key={ind} app={app}></AppCard>;
         })}
       </div>
